@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "axum",
+  "std-rs",
+  "plus-rs"
+]
+resolver = "2"
+
