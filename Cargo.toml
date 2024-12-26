@@ -19,5 +19,5 @@ axum = ["dep:axum"]
 std-rs = ["dep:std-rs"]
 
 [dependencies]
-axum = {path = "../axum", optional = true}
-std-rs = {path = "../std-rs", optional = true}
+axum = {path = "axum", optional = true}
+std-rs = {path = "std-rs", optional = true}
