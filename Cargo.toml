@@ -1,3 +1,8 @@
+[package]
+edition = "2021"
+name = "plus"
+version = "0.1.0"
+
 [workspace]
 members = [
   "axum",
@@ -8,11 +13,6 @@ resolver = "2"
 [lib]
 name = "plus"
 path = "plus-rs/lib.rs"
-
-[package]
-edition = "2021"
-name = "plus-rs"
-version = "0.1.0"
 
 [features]
 axum = ["dep:axum"]
